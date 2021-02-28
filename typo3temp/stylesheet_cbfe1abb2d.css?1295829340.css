@@ -1,0 +1,411 @@
+/* default styles for extension "tx_femp3player_pi1" */
+		.tx-femp3player-pi1 {
+			text-align: center;
+		}
+		.tx-femp3player-pi1 TABLE {
+			border: solid 1px #BCBCBC;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			border-collapse: collapse;
+		}
+		.tx-femp3player-pi1 TD {
+			border: solid 1px #BCBCBC;
+			padding: 5px;
+		}
+/* default styles for extension "tx_slideshow_pi1" */
+		.tx-slideshow-pi1 {
+			text-align: center;
+		}
+/* default styles for extension "tx_veguestbook_pi1" */
+  /* example styles */
+	.tx-guestbook-list-table { border-style: solid; border-color: #000000; border-width: 1px; }
+    .tx-guestbook-list-header { background-color: #539521; color: #FFFFFF; font-weight:bold; }
+    .tx-guestbook-list-row { background-color: #FFFFFF; }
+    .tx-guestbook-list-rowleft { background-color: #EEEEEE; }
+    .tx-guestbook-list-entrycomment-title {font-weight: bold; }
+    .tx-guestbook-list-entrycomment { font-style: italic; }
+    .tx-guestbook-list-small { font-size: 9px; color: #666666; }
+    .tx-veguestbook-pi1-browsebox TD { font-size: 9px; color: #666666; }
+    .tx-veguestbook-pi1-browsebox-strong, .tx-ttnews-browsebox-SCell { font-weight: bold; }
+    .tx-veguestbook-pi1-browsebox-SCell { background-color: #EEEEEE; }
+    .tx-guestbook-latest-header { background-color: #539521; color: #FFFFFF; font-weight:bold; }
+    .tx-guestbook-latest-row { background-color: #FFFFFF; }
+    .tx-guestbook-latest-small { font-size: 9px; color: #666666; }
+    .tx-guestbook-form-inputfield-med { border-style: solid; border-width: 1pt; border-color:#539521; font-size:14px; color:#333333; width:100px; }
+    .tx-guestbook-form-inputfield-big { border-style: solid; border-width: 1pt; border-color:#539521; font-size:14px; color:#333333; width:150px; }
+    .tx-guestbook-form-textarea { border-style: solid; border-width: 1pt; border-color:#539521; font-size:14px; color:#333333; width:250px; }
+    .tx-guestbook-form-obligationfield { color: #CC0000; }
+    .tx-guestbook-form-error { color: #CC0000; }
+/* default styles for extension "tx_flvplayer_pi1" */
+		.tx-flvplayer-pi1 {
+			text-align: center;
+		}
+/* default styles for extension "tx_wecknowledgebase_pi1" */
+/*-------------------------- KNOWLEDGE_BASE STYLES ---------------------------*/
+
+	.tx-wecknowledgebase-pi1 .news-list-container h3,
+	.tx-wecknowledgebase-pi1 .news-latest-container h3,
+	.tx-wecknowledgebase-pi1 .news-comment-container h3,
+	.tx-wecknowledgebase-pi1 .news-kb-container h3,
+	.tx-wecknowledgebase-pi1 .news-pop-container h3,
+	.tx-wecknowledgebase-pi1 .news-single-related h3	{
+		font-size: 1em;
+		margin: 2px;
+		margin-top:6px;
+		padding: 2px;
+		background-color: #E0E0E0;
+	}
+	 .tx-wecknowledgebase-pi1 .news-list-item .tiny,
+	 .tx-wecknowledgebase-pi1 .news-latest-item .tiny,
+	 .tx-wecknowledgebase-pi1 .news-pop-item .tiny {
+		font-size: .75em;
+		color: #606060;
+	}
+	 .tx-wecknowledgebase-pi1 .news-latest-item h3,
+	 .tx-wecknowledgebase-pi1 .news-list-item h3,
+	 .tx-wecknowledgebase-pi1 .news-pop-item h3 {
+ 		font-size: 1em;
+		font-weight: normal;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-color: transparent;
+		display: block;
+		padding-left: 20px !important;
+	}
+	 .tx-wecknowledgebase-pi1 .news-list-item h3 {
+		background-image: url("../typo3conf/ext/wec_knowledgebase/res/kb_page.gif");
+	 }
+	 .tx-wecknowledgebase-pi1 .news-latest-item h3 {
+		background-image: url("../typo3conf/ext/wec_knowledgebase/res/kb_new.gif");
+	 }
+	 .tx-wecknowledgebase-pi1 .news-pop-item h3 {
+		background-image: url("../typo3conf/ext/wec_knowledgebase/res/kb_popular.gif");
+	 }
+
+	 .tx-wecknowledgebase-pi1 .news-list-item  .bodytext,
+	 .tx-wecknowledgebase-pi1 .news-pop-item  .bodytext,
+	 .tx-wecknowledgebase-pi1 .news-latest-item .bodytext {
+	 	margin: 0px;
+	 	padding-bottom: 2px;
+ 	}
+
+	 .tx-wecknowledgebase-pi1 .news-catmenu {
+		float:	left;
+		width:  100%;
+		padding: 0px;
+		padding-left:   4px
+		padding-bottom: 6px;
+		margin: 0px;
+		clear: both;
+	}
+	 .tx-wecknowledgebase-pi1 .news-catmenu-NO {
+		float: 			left;
+		width:			250px;
+		margin-bottom:  3px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-catmenu-icon {
+		padding-right:	6px;
+	}
+	news-catmenu-icon
+	 .tx-wecknowledgebase-pi1 .news-single-related h3.header {
+		font-size: 1.2em;
+		display: block;
+		width: auto;
+		border-bottom: 1px dotted #ccc;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-single-related {
+		margin-top: 20px;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-single-item {
+	 	clear:	both;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-comment-container {
+		display: block;
+		margin-top: 15px;
+		margin-bottom:10px;
+		padding:	0px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-comment-item {
+		width:		550px;
+		background-color: #E0E0E0;
+		border: 	1px solid #333;
+		margin: 	0px auto;
+		margin-bottom:4px;
+		margin-top:	4px;
+		padding:	5px;
+		padding-bottom:1px;
+		font-size:  1em;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-tutorial-menu {
+	 	margin: 4px;
+	 	padding: 4px;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-form {
+		width: 550px;
+		background-color: #F0F0FF;
+		border: 1px solid #333;
+		margin: 0px auto;
+		padding:	5px;
+		padding-bottom: 0px;
+		margin-top:10px;
+		margin-bottom:5px;
+		font-size:	0.9em;
+	}
+	 .tx-wecknowledgebase-pi1 .news-form-label {
+		float:		left;
+		width:		25%;
+		text-align:	right;
+		margin-right:10px;
+		font-size:	0.9em;
+	}
+	 .tx-wecknowledgebase-pi1 .news-form-input {
+		float:		left;
+		width:		70%;
+		text-align:	left;
+		margin-bottom:5px;
+		font-size:	0.9em;
+	}
+	 .tx-wecknowledgebase-pi1 .news-form-textacross {
+		float:		left;
+		width:		100%;
+		text-align:	center;
+		font-size:	0.9em;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-button a,  .tx-wecknowledgebase-pi1 .news-button a:active,
+	 .tx-wecknowledgebase-pi1 .news-button a:link,  .tx-wecknowledgebase-pi1 .news-button a:visited {
+		display:		inline;
+	    font-family: 	arial, tahoma, sans-serif;
+		font-size:		0.8em;
+		padding: 		3px;
+	    margin:         3px;
+	    margin-top:     5px;
+		border: 		1px #aaa solid;
+		background-color:#F0F0F0;
+		color: 			#444488;
+		text-decoration: none;
+	}
+	 .tx-wecknowledgebase-pi1 .news-button a:hover {
+		border: 		1px #ccc solid;
+		background-color: #FFFFB0;
+		color: 			#444488;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-sidebar {
+		float: 		right;
+		width:		130px;
+		margin: 	4px;
+		margin-right: 0px;
+		padding: 	0px;
+		padding-bottom:10px;
+		border: 	1px solid #888;
+		background-color: #F0F0F0;
+		text-align:	center;
+	}
+	 .tx-wecknowledgebase-pi1 .news-sidebar-links {
+		margin:			4px;
+		margin-top:		8px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-sidebar-links a {
+		font-family:	arial, tahoma, sans-serif;
+		font-size: 		0.8em;
+		padding:		2px;
+		text-decoration: none;
+		color:			black;
+	}
+	 .tx-wecknowledgebase-pi1 .news-sidebar-header {
+		font-family:	arial, tahoma, sans-serif;
+		font-size: 		1em;
+		padding:		2px;
+		margin:			0px;
+		color:			black;
+		background-color: #A0A0A0;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-search-form {
+		float:	left;
+		width:	45%;
+		margin-bottom: 4px;
+		padding-right: 10px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-search-emptyMsg {
+	    display: none;
+	}
+
+	 .tx-wecknowledgebase-pi1 .news-catdropdown {
+		float:   left;
+		width:	50%;
+		margin-bottom:10px;
+		padding-right:10px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-actionbar {
+		text-align:	center;
+		font-size:	10px;
+		padding:	4px;
+		padding-bottom:8px;
+	}
+	 .tx-wecknowledgebase-pi1 .news-single-backlink {
+	 	margin-top: 10px;
+	 	clear:		both;
+		font-size:	12px;
+	}
+
+	.tx-wecknowledgebase-pi1 .news-version-info {
+		margin:		0px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		font-size:	0.85em;
+		color:		#888;
+	}
+
+	.tx-wecknowledgebase-pi1 .alert {
+		width:		100%;
+		color:		#f00;
+		font-weight: bold;
+		font-size:	105%;
+		padding:	2px;
+	}
+
+/* default styles for extension "tx_felogin_pi1" */
+	.tx-felogin-pi1 label {
+		display: block;
+	}
+/* default styles for extension "tx_newloginbox_pi3" */
+	.tx-newloginbox-pi3-listrow TH { background:#ccc; padding:0 .5em; white-space:nowrap; }
+	.tx-newloginbox-pi3-listrow TD { background:#eee; padding:0 .5em; }
+	.tx-newloginbox-pi3-singleView TH { background:#ccc; padding:0 .5em; text-align:right; white-space:nowrap; }
+	.tx-newloginbox-pi3-singleView TD { background:#eee; padding:0 .5em; }
+/* default styles for extension "tx_cssstyledcontent" */
+	/* Captions */
+	DIV.csc-textpic-caption-c .csc-textpic-caption { text-align: center; }
+	DIV.csc-textpic-caption-r .csc-textpic-caption { text-align: right; }
+	DIV.csc-textpic-caption-l .csc-textpic-caption { text-align: left; }
+
+	/* Needed for noRows setting */
+	DIV.csc-textpic DIV.csc-textpic-imagecolumn { float: left; display: inline; }
+
+	/* Border just around the image */
+	DIV.csc-textpic-border DIV.csc-textpic-imagewrap .csc-textpic-image IMG, DIV.csc-textpic-border DIV.csc-textpic-single-image IMG {
+		border: 2px solid black;
+		padding: 0px 0px;
+	}
+
+	DIV.csc-textpic-imagewrap { padding: 0; }
+
+	DIV.csc-textpic IMG { border: none; }
+
+	/* DIV: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DIV.csc-textpic-image { float: left; }
+
+	/* UL: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap UL { list-style: none; margin: 0; padding: 0; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap UL LI { float: left; margin: 0; padding: 0; }
+
+	/* DL: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image { float: left; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DT { float: none; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD { float: none; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD IMG { border: none; } /* FE-Editing Icons */
+	DL.csc-textpic-image { margin: 0; }
+	DL.csc-textpic-image DT { margin: 0; display: inline; }
+	DL.csc-textpic-image DD { margin: 0; }
+
+	/* Clearer */
+	DIV.csc-textpic-clear { clear: both; }
+
+	/* Margins around images: */
+
+	/* Pictures on left, add margin on right */
+	DIV.csc-textpic-left DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-right: 10px;
+	}
+
+	/* Pictures on right, add margin on left */
+	DIV.csc-textpic-right DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-left: 10px;
+	}
+
+	/* Pictures centered, add margin on left */
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-left: 10px;
+	}
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image .csc-textpic-caption { margin: 0; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image IMG { margin: 0; }
+
+	/* Space below each image (also in-between rows) */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image { margin-bottom: 5px; }
+	DIV.csc-textpic-equalheight DIV.csc-textpic-imagerow { margin-bottom: 5px; display: block; }
+	DIV.csc-textpic DIV.csc-textpic-imagerow { clear: both; }
+	DIV.csc-textpic DIV.csc-textpic-single-image IMG { margin-bottom: 5px; }
+	
+	/* No margins around the whole image-block */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-firstcol { margin-left: 0px !important; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-lastcol { margin-right: 0px !important; }
+
+	/* Add margin from image-block to text (in case of "Text w/ images") */
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap {
+		margin-right: 10px !important;
+	}
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap {
+		margin-left: 10px !important;
+	}
+
+	/* Positioning of images: */
+
+	/* Above */
+	DIV.csc-textpic-above DIV.csc-textpic-text { clear: both; }
+
+	/* Center (above or below) */
+	DIV.csc-textpic-center { text-align: center; /* IE-hack */ }
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap { margin: 0 auto; }
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image { text-align: left; /* Remove IE-hack */ }
+	DIV.csc-textpic-center DIV.csc-textpic-text { text-align: left; /* Remove IE-hack */ }
+
+	/* Right (above or below) */
+	DIV.csc-textpic-right DIV.csc-textpic-imagewrap { float: right; }
+	DIV.csc-textpic-right DIV.csc-textpic-text { clear: right; }
+
+	/* Left (above or below) */
+	DIV.csc-textpic-left DIV.csc-textpic-imagewrap { float: left; }
+	DIV.csc-textpic-left DIV.csc-textpic-text { clear: left; }
+
+	/* Left (in text) */
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap { float: left; }
+
+	/* Right (in text) */
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap { float: right; }
+
+	/* Right (in text, no wrap around) */
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap { float: right; clear: both; }
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html DIV.csc-textpic-intext-right-nowrap .csc-textpic-text { height: 1%; }
+	/* End hide from IE5/mac */
+
+	/* Left (in text, no wrap around) */
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap { float: left; clear: both; }
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html DIV.csc-textpic-intext-left-nowrap .csc-textpic-text { height: 1%; }
+	/* End hide from IE5/mac */
+	
+	DIV.csc-textpic DIV.csc-textpic-imagerow-last { margin-bottom: 0; }
+
+	/* Browser fixes: */
+
+	/* Fix for unordered and ordered list with image "In text, left" */
+	.csc-textpic-intext-left ol, .csc-textpic-intext-left ul {padding-left: 40px; overflow: auto; height: 1%; }

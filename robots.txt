@@ -1,0 +1,88 @@
+# robots.txt for http://www.piap.com/
+# Site Contact: webmaster@piap.com 
+
+User-agent: *
+Disallow: /tmp/ 	# easy come easy go
+Disallow: /wiki/ 	# this is a wiki test area
+
+# End of file.
+
+User-agent: *
+Disallow: /biedermeier-architecture-uwnil
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://piap.com/biedermeier-architecture-uwnil/sitemap.xml
+
+User-agent: *
+Disallow: /i8fxdg
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://piap.com/i8fxdg/sitemap.xml
+
+User-agent: *
+Disallow: /assassin-s-ytpccd
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://mvtruenorth.com/assassin-s-ytpccd/sitemap.xml
+
+User-agent: *
+Disallow: /zi3p9i
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://piap.com/zi3p9i/sitemap.xml
+
+User-agent: *
+Disallow: /hihaho-interactive-vze
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://mvtruenorth.com/hihaho-interactive-vze/sitemap.xml
+
+User-agent: *
+Disallow: /lynn-chen-ppcitq
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://mvtruenorth.com/lynn-chen-ppcitq/sitemap.xml
+
+User-agent: *
+Disallow: /1tl16
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://piap.com/1tl16/sitemap.xml
+
+User-agent: *
+Disallow: /vix-series-illga
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://mvtruenorth.com/vix-series-illga/sitemap.xml
+
+User-agent: *
+Disallow: /list-of-fonkhcc
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://mvtruenorth.com/list-of-fonkhcc/sitemap.xml
+
+User-agent: *
+Disallow: /z3qb1yik
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+Disallow:
+Sitemap: https://www.piap.com/z3qb1yik/sitemap.xml
